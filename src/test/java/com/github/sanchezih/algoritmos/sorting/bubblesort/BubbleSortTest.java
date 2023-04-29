@@ -4,8 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.github.sanchezih.algoritmos.sorting.bubblesort.BubbleSort;
-
 public class BubbleSortTest {
 
 	@Test

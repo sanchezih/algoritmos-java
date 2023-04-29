@@ -2,13 +2,11 @@ package com.github.sanchezih.algoritmos.sorting.mergesort;
 
 public class MergeSort {
 
-	public static void main(String[] args) {
-		int[] a = { 5, 1, 6, 2, 3, 4 };
-		mergeSort(a, a.length);
-		for (int i = 0; i < a.length; i++)
-			System.out.println(a[i]);
-	}
-
+	/**
+	 * 
+	 * @param a
+	 * @param n
+	 */
 	public static void mergeSort(int[] a, int n) {
 		if (n < 2)
 			return;
@@ -28,17 +26,23 @@ public class MergeSort {
 		merge(a, l, r, mid, n - mid);
 	}
 
+	/**
+	 * 
+	 * @param a
+	 * @param l
+	 * @param r
+	 * @param left
+	 * @param right
+	 */
 	public static void merge(int[] a, int[] l, int[] r, int left, int right) {
 
 		int i = 0, j = 0, k = 0;
 
 		while (i < left && j < right) {
-
 			if (l[i] <= r[j])
 				a[k++] = l[i++];
 			else
 				a[k++] = r[j++];
-
 		}
 
 		while (i < left)
