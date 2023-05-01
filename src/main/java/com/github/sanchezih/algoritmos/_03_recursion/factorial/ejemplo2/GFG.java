@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos.recursion.factorial.ejemplo2;
+package com.github.sanchezih.algoritmos._03_recursion.factorial.ejemplo2;
 //Java Program to Find Factorial of a Number
 //where N>=0 is currently N=1
 

@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos.recursion.factorial.ejemplo1;
+package com.github.sanchezih.algoritmos._03_recursion.factorial.ejemplo1;
 
 /**
  * https://www.geeksforgeeks.org/java-program-to-find-factorial-of-a-number-recursively/

@@ -7,3 +7,4 @@
 * Binary Search
 * Factorial
 * Permutation
+* Fibonacci

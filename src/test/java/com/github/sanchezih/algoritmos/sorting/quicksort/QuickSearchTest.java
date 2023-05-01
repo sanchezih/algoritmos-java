@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 
+import com.github.sanchezih.algoritmos._01_sorting.quicksort.QuickSort;
+
 public class QuickSearchTest {
 
 	@Test

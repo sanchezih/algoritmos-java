@@ -1,5 +1,11 @@
-package com.github.sanchezih.algoritmos.sorting.quicksort;
+package com.github.sanchezih.algoritmos._01_sorting.quicksort;
 
+/**
+ * https://www.baeldung.com/java-quicksort
+ * 
+ * @author ihsanch
+ *
+ */
 public class QuickSort {
 
 	public static void quickSort(int arr[], int begin, int end) {

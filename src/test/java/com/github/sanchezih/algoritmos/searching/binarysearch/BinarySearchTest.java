@@ -7,6 +7,8 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
+import com.github.sanchezih.algoritmos._02_searching.binarysearch.BinarySearch;
+
 public class BinarySearchTest {
 
 	int[] sortedArray = { 0, 1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 9 };
@@ -18,26 +20,22 @@ public class BinarySearchTest {
 
 	@Test
 	void givenASortedArrayOfIntegers_whenBinarySearchRunIterativelyForANumber_thenGetIndexOfTheNumber() {
-		BinarySearch binSearch = new BinarySearch();
-		assertEquals(expectedIndexForSearchKey, binSearch.runBinarySearchIteratively(sortedArray, key, low, high));
+		assertEquals(expectedIndexForSearchKey, BinarySearch.runBinarySearchIteratively(sortedArray, key, low, high));
 	}
 
 	@Test
 	void givenASortedArrayOfIntegers_whenBinarySearchRunRecursivelyForANumber_thenGetIndexOfTheNumber() {
-		BinarySearch binSearch = new BinarySearch();
-		assertEquals(expectedIndexForSearchKey, binSearch.runBinarySearchRecursively(sortedArray, key, low, high));
+		assertEquals(expectedIndexForSearchKey, BinarySearch.runBinarySearchRecursively(sortedArray, key, low, high));
 	}
 
 	@Test
 	void givenASortedArrayOfIntegers_whenBinarySearchRunUsingArraysClassStaticMethodForANumber_thenGetIndexOfTheNumber() {
-		BinarySearch binSearch = new BinarySearch();
-		assertEquals(expectedIndexForSearchKey, binSearch.runBinarySearchUsingJavaArrays(sortedArray, key));
+		assertEquals(expectedIndexForSearchKey, BinarySearch.runBinarySearchUsingJavaArrays(sortedArray, key));
 	}
 
 	@Test
 	void givenASortedListOfIntegers_whenBinarySearchRunUsingCollectionsClassStaticMethodForANumber_thenGetIndexOfTheNumber() {
-		BinarySearch binSearch = new BinarySearch();
-		assertEquals(expectedIndexForSearchKey, binSearch.runBinarySearchUsingJavaCollections(sortedList, key));
+		assertEquals(expectedIndexForSearchKey, BinarySearch.runBinarySearchUsingJavaCollections(sortedList, key));
 	}
 
 }

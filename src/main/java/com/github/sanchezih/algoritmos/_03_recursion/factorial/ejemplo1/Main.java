@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos.recursion.factorial.ejemplo1;
+package com.github.sanchezih.algoritmos._03_recursion.factorial.ejemplo1;
 
 public class Main {
 

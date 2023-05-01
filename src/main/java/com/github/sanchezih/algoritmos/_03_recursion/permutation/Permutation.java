@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos.recursion.permutation;
+package com.github.sanchezih.algoritmos._03_recursion.permutation;
 
 import java.util.Arrays;
 import java.util.Collections;

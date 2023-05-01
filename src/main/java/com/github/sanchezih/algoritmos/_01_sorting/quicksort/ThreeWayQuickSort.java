@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos.sorting.quicksort;
+package com.github.sanchezih.algoritmos._01_sorting.quicksort;
 
 public class ThreeWayQuickSort {
 
