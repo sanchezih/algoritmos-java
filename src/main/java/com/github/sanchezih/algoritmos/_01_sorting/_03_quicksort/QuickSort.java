@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos._01_sorting.quicksort;
+package com.github.sanchezih.algoritmos._01_sorting._03_quicksort;
 
 /**
  * https://www.baeldung.com/java-quicksort

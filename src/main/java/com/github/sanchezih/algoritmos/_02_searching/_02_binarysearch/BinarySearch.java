@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos._02_searching.binarysearch;
+package com.github.sanchezih.algoritmos._02_searching._02_binarysearch;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -14,7 +14,6 @@ public class BinarySearch {
 	 * @param high
 	 * @return
 	 */
-
 	public static int runBinarySearchIteratively(int[] sortedArray, int key, int low, int high) {
 		int index = Integer.MAX_VALUE;
 		while (low <= high) {
@@ -39,7 +38,6 @@ public class BinarySearch {
 	 * @param high
 	 * @return
 	 */
-	
 	public static int runBinarySearchRecursively(int[] sortedArray, int key, int low, int high) {
 		int middle = low + ((high - low) / 2);
 		if (high < low) {

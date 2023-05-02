@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos._02_searching.binarysearch;
+package com.github.sanchezih.algoritmos._02_searching._02_binarysearch;
 
 public class Main {
 

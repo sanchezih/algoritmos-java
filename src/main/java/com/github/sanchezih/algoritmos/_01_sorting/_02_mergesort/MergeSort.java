@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos._01_sorting.mergesort;
+package com.github.sanchezih.algoritmos._01_sorting._02_mergesort;
 
 public class MergeSort {
 

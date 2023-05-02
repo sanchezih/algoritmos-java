@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos._01_sorting.bubblesort;
+package com.github.sanchezih.algoritmos._01_sorting._01_bubblesort;
 
 public class BubbleSort {
 

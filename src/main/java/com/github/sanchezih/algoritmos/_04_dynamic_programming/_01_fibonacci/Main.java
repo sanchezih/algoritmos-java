@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos._04_dynamic_programming.fibonacci;
+package com.github.sanchezih.algoritmos._04_dynamic_programming._01_fibonacci;
 
 public class Main {
 	public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Main {
 
 		////////////////////////////////////////////////////////////////////////
 
-		int maxCount = 49;
+		int maxCount = 47;
 		System.out.println("Inicio: " + java.time.LocalTime.now());
 
 		for (int i = 0; i <= maxCount; i++) {

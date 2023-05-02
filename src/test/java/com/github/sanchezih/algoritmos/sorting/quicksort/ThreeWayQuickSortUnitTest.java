@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.github.sanchezih.algoritmos._01_sorting.quicksort.ThreeWayQuickSort;
+import com.github.sanchezih.algoritmos._01_sorting._03_quicksort.ThreeWayQuickSort;
 
 public class ThreeWayQuickSortUnitTest {
 

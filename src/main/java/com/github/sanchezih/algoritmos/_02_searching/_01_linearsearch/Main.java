@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos._02_searching.linearsearch;
+package com.github.sanchezih.algoritmos._02_searching._01_linearsearch;
 
 public class Main {
 

@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import com.github.sanchezih.algoritmos._02_searching.binarysearch.BinarySearch;
+import com.github.sanchezih.algoritmos._02_searching._02_binarysearch.BinarySearch;
 
 public class BinarySearchTest {
 

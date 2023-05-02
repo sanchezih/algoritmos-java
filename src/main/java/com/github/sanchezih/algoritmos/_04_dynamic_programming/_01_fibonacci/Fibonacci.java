@@ -1,6 +1,7 @@
-package com.github.sanchezih.algoritmos._04_dynamic_programming.fibonacci;
+package com.github.sanchezih.algoritmos._04_dynamic_programming._01_fibonacci;
 
 public class Fibonacci {
+
 	public static int getFibonacciNumberAt(int n) {
 		if (n == 0)
 			return 0;

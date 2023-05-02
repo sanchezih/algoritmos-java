@@ -1,4 +1,4 @@
-package com.github.sanchezih.algoritmos._03_recursion.permutation;
+package com.github.sanchezih.algoritmos._03_recursion._02_permutation;
 
 public class Main {
 	public static void main(String[] argv) {
