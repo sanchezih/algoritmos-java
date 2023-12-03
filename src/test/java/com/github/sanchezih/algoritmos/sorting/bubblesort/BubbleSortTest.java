@@ -22,7 +22,7 @@ public class BubbleSortTest {
 		Integer[] sortedArray = { 1, 2, 3, 4, 5, 6 };
 		BubbleSort bubbleSort = new BubbleSort();
 
-		bubbleSort.optimizedBubbleSort(array);
+		bubbleSort.bubbleSortOptimizado(array);
 
 		assertArrayEquals(array, sortedArray);
 	}

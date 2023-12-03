@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String args[]) {
 
-		Integer array[] = { 1,8,3,4,5,6,7,8}; // Array desordenado
+		Integer array[] = { 4, 2, 5, 3, 1 }; // Array desordenado
 		printArray(array);
 		BubbleSort.bubbleSortPocoOptimizado(array);
 		System.out.println("Sorted array");

@@ -2,6 +2,10 @@ package com.github.sanchezih.algoritmos._01_sorting._01_bubblesort;
 
 public class BubbleSort {
 
+	/**
+	 * 
+	 * @param array
+	 */
 	public static void bubbleSortPocoOptimizado(Integer[] array) {
 		int size = array.length - 1;
 		for (int i = 0; i < size; i++) {
@@ -56,7 +60,7 @@ public class BubbleSort {
 	 * @param array
 	 * @param length
 	 */
-	public static void optimizedBubbleSort(Integer[] array) {
+	public static void bubbleSortOptimizado(Integer[] array) {
 		int length = array.length;
 		int i, j, temp;
 		boolean swapped;
